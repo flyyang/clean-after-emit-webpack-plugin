@@ -30,7 +30,6 @@ module.exports = class CleanAfterEmitWebpackPlguin {
   }
 
   apply(compiler) {
-    console.log(this.PluginName);
     compiler.hooks.afterEmit.tapAsync(
       this.PluginName,
       (compilation, cb) => {
