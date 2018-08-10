@@ -1,6 +1,6 @@
 {
   "name": "clean-after-emit-webpack-plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "clean after webpack build",
   "main": "index.js",
   "scripts": {
